@@ -1,7 +1,7 @@
 # code your #valid_move? method here
 
 def valid_move?(board, num)
-  if !position_taken?(board, num) && 
+  if !position_taken?(board, num) && (0..8).include?(num)
 end
 
 
